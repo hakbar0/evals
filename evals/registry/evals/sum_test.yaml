@@ -1,0 +1,8 @@
+sum-test:
+  id: sum-test.dev.v0
+  description: Test the model's ability to compute the sum of two numbers.
+  metrics: [accuracy]
+sum-test.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: sum_test/samples.v0.jsonl
